@@ -94,7 +94,7 @@
 //   console.log(`low speed`);
 // }
 
-const age = 18;
+const age = 16;
 
 let description = ``;
 if (age >= 18) {
@@ -104,5 +104,7 @@ if (age >= 18) {
 description = age >= 18 ? `adult` : ``;
 
 age >= 18 && (description = `adult`);
+
+age >= 18 || (description = `young`);
 
 console.log(description);
